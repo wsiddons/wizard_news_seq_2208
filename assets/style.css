@@ -1,0 +1,26 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+main>* {
+    flex-grow: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form>* {
+    margin: 0.5rem;
+}
+
+select,
+button,
+input {
+    height: 2rem;
+}
